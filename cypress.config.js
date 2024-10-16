@@ -6,11 +6,14 @@ module.exports = defineConfig({
     //baseUrl:'https://opensource-demo.orangehrmlive.com',
     env:{
       "firstname":"manju",
-      "lastname":"c"
+      "lastname":"c",
+      "getemployees":"web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC",
+      "API cokie":"orangehrm=8osnn7hai74vvfo86g47gbgflo",
+      
     },
     viewportWidth:1920,
     viewportHeight:1080,
-    retries:{"openMode":1},
+    retries:{"openMode":2},
     pageLoadTimeout:40000,
     defaultCommandTimeout:4000,
     watchForFileChanges:false,
