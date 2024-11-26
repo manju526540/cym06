@@ -4,7 +4,7 @@ class loginpage{
     }
 
     userNameInput(){
-        return "input[name='username']"
+        return 'input[name="username"]'
         }
 
     passWordInput(){

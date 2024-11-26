@@ -13,9 +13,9 @@ module.exports = defineConfig({
     },
     viewportWidth:1920,
     viewportHeight:1080,
-    retries:{"openMode":2},
+    retries:{"openMode":1},
     pageLoadTimeout:40000,
-    defaultCommandTimeout:4000,
+    defaultCommandTimeout:5000,
     watchForFileChanges:false,
     videosFolder:"cypress/manju",
     
